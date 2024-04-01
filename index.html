@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>complete responsive hotel booking website design tutorial</title>
+   <title>Apartman Soko Banja - Hugo</title>
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -22,18 +22,17 @@
 <section class="header">
 
    <div class="flex">
-      <a href="#home" class="logo">Hotels And Resorts</a>
-      <a href="#availability" class="btn">check availability</a>
+      <a href="#home" class="logo">Hugo Apartman</a>
+      <a href="#availability" class="btn">REZERVACIJE</a>
       <div id="menu-btn" class="fas fa-bars"></div>
    </div>
 
    <nav class="navbar">
-      <a href="#home">home</a>
-      <a href="#about">about</a>
-      <a href="#reservation">reservation</a>
-      <a href="#gallery">gallery</a>
-      <a href="#contact">contact</a>
-      <a href="#reviews">reviews</a>
+      <a href="#home">Pocetna</a>
+      <a href="#about">Apartman</a>
+      <a href="#gallery">Galerija</a>
+      <a href="#reviews">Ocene</a>
+      <a href="#contact">Kontakt</a>
    </nav>
 
 </section>
@@ -52,7 +51,7 @@
             <img src="images/home-img-1.jpg" alt="">
             <div class="flex">
                <h3>luxurious rooms</h3>
-               <a href="#availability" class="btn">check availability</a>
+               <a href="#availability" class="btn">Rezervisi</a>
             </div>
          </div>
 
@@ -60,7 +59,7 @@
             <img src="images/home-img-2.jpg" alt="">
             <div class="flex">
                <h3>foods and drinks</h3>
-               <a href="#reservation" class="btn">make a reservation</a>
+               <a href="#reservation" class="btn">Rezervisi</a>
             </div>
          </div>
 
@@ -68,7 +67,7 @@
             <img src="images/home-img-3.jpg" alt="">
             <div class="flex">
                <h3>luxurious halls</h3>
-               <a href="#contact" class="btn">contact us</a>
+               <a href="#contact" class="btn">Rezervisi</a>
             </div>
          </div>
 
@@ -85,7 +84,7 @@
 
 <!-- availability section starts  -->
 
-<section class="availability" id="availability">
+<!-- <section class="availability" id="availability">
 
    <form action="" method="post">
       <div class="flex">
@@ -98,7 +97,7 @@
             <input type="date" name="check_out" class="input" required>
          </div>
          <div class="box">
-            <p>adults <span>*</span></p>
+            <p>Odrasli <span>*</span></p>
             <select name="adults" class="input" required>
                <option value="1">1 adult</option>
                <option value="2">2 adults</option>
@@ -135,7 +134,7 @@
       <input type="submit" value="check availability" name="check" class="btn">
    </form>
 
-</section>
+</section> -->
 
 <!-- availability section ends -->
 
@@ -230,7 +229,7 @@
 
 <!-- reservation section starts  -->
 
-<section class="reservation" id="reservation">
+<!-- <section class="reservation" id="reservation">
 
    <form action="" method="post">
       <h3>make a reservation</h3>
@@ -281,7 +280,7 @@
       <input type="submit" value="check availability" name="check" class="btn">
    </form>
 
-</section>
+</section> -->
 
 <!-- reservation section ends -->
 
@@ -315,6 +314,7 @@
          <h3>send us message</h3>
          <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
          <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+         <input type="date" name="check_in" class="box" required>
          <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
          <textarea name="msg" class="box" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
          <input type="submit" value="send message" name="send" class="btn">
@@ -395,6 +395,18 @@
 </section>
 
 <!-- reviews section ends  -->
+
+<!-- map section starts  -->
+<section>
+   <div class="map-container">
+       <h3>Где се налазимо</h3>
+       <iframe 
+           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11672.947804239473!2d21.9468953!3d42.9943449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755833c239d4779%3A0x38d0f662e5af239b!2sAdvokat%20Predrag%20Mitic!5e0!3m2!1sen!2sde!4v1704670376989!5m2!1sen!2sde" 
+           style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+       </iframe>
+   </div>
+</section>
+<!-- map section starts  -->
 
 <!-- footer section starts  -->
 
