@@ -379,27 +379,6 @@ section{
 .contact .row form .box::placeholder{
    color: rgba(220, 198, 156, .6);
 }
-.contact .row form .box[type="date"] {
-   /* Remove custom padding and margin */
-   padding: 1rem 0;
-   margin: 1rem 0;
-   /* Ensure default browser styles are applied */
-   -webkit-appearance: unset;
-   -moz-appearance: unset;
-   appearance: unset;
-   /* Add any necessary additional styling */
- }
- .contact .row form .box[type="date"]::-webkit-calendar-picker-indicator {
-   /* Set the color of the button */
-   background-color: white;
-   /* Add additional styling to make sure it's visible */
-   width: 1em;
-   height: 1em;
-   padding: 0;
-   border: none;
-   cursor: pointer;
-   /* Add other necessary styling */
- }
 .contact .row form textarea{
    height: 15rem;
    resize: none;
